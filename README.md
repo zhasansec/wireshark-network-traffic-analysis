@@ -27,8 +27,8 @@ The matching transaction ID 0x0379 was used to correlate the DNS query with its 
 
 ### Security and Risk Analysis
 
-Protocol Baseline: This capture establishes a normal baseline for the DNS name-resolution process, demonstrating how transaction IDs prevent protocol mismatching
+**Protocol Baseline**: This capture establishes a normal baseline for the DNS name-resolution process, demonstrating how transaction IDs prevent protocol mismatching
 
-.Risk Perspective: From a security standpoint, monitoring these plaintext DNS queries is critical. Unencrypted DNS traffic can expose internal user behavior, map out corporate assets to an eavesdropper, or flag potential indicators of compromise (IoCs) such as connections to unauthorized malicious domains or data exfiltration via DNS tunneling.
+**Risk Perspective**: From a security standpoint, monitoring these plaintext DNS queries is critical. Unencrypted DNS traffic can expose internal user behavior, map out corporate assets to an eavesdropper, or flag potential indicators of compromise (IoCs) such as connections to unauthorized malicious domains or data exfiltration via DNS tunneling.
 
 
