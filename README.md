@@ -11,7 +11,7 @@ A hands-on Wireshark lab analyzing DNS, TCP, ICMP, and TLS network traffic to in
 ![image alt](https://github.com/zhasansec/wireshark-network-traffic-analysis/blob/eb33540e7a6f72716614f040e79c2b19dbe4d6b0/dns%20query%20.png)
 
 
-The workstation initiated a DNS A-record query for `example.com`. The query requested the IPv4 address associated with the domain. The packet was isolated using the DNS transaction ID 0x0379, and the query details show a Type A (Host Address) request with Class IN.
+The workstation initiated a DNS A-record query for example.com. The query requested the IPv4 address associated with the domain. The packet was isolated using the DNS transaction ID 0x0379, and the query details show a Type A (Host Address) request with Class IN.
 
 ### DNS Response
 
